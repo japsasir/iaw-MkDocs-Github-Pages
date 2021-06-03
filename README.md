@@ -58,6 +58,7 @@ La estructura creada.
 Podemos observar un archivo llamado **mkdocs.yml** (Misma extensión que los que usamos con docker-compose) que nos permite alterar ciertas opciones: Nombre del sitio, nav (sistema de archivos) y el tema a utilizar (theme)
 
 ![mkdocs.yml](https://i.imgur.com/v4UjO0h.png)
+
 Mi archivo mkdocs.yml
 
 #### Crear un servidor de desarrollo local con 'serve'
