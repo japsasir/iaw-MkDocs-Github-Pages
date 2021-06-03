@@ -59,7 +59,7 @@ Podemos observar un archivo llamado **mkdocs.yml** (Misma extensión que los que
 ![mkdocs.yml](https://i.imgur.com/v4UjO0h.png)
 Mi archivo mkdocs.yml
 
-#### Crear un servidor de desarrollo local con serve
+#### Crear un servidor de desarrollo local con 'serve'
 
 Una vez que hemos creado la estructura del proyecto podemos empezar el desarrollo de nuestro sitio iniciando un contenedor Docker con MkDocs y el theme Material.
 
@@ -78,15 +78,6 @@ git add --all
 git commit -m "Comentario descriptivo"
 git push
 ```
-
-#### Jekyll build
-Este comando nos permite crear un sitio web a partir del contenido del proyecto Jekyll. Debe ejecutarse en el directorio donde tengas el contenido del blog y el resultado quedará en la carpeta _site.
-
-
-#### Jekyll serve
-Cuando tengamos nuestro sitio listo usaremos jekyll-serve para subir un sitio web estático, que se mostrará en el **puerto 8000** de nuestro localhost o la instancia de Amazon.
-
-`docker run --rm -it -p 8000:8000 -v "$PWD":/docs squidfunk/mkdocs-material`
 
 ![](https://i.imgur.com/a1kiFZV.png)
 Recibiremos este aviso.
