@@ -50,6 +50,7 @@ Lanzamos el contenedor de MKdocs, que creará la estructura necesaria para el pr
 Donde '$proyecto' será el nombre que le quieras dar a tu proyecto.
 
 ![Estructura de archivos](https://i.imgur.com/KxI7kLf.png)
+
 La estructura creada.
 
 
